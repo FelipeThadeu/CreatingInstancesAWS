@@ -10,5 +10,10 @@ Ao clicar no botão, ele mostrará as imagens que estão disponíveis pela AWS n
  - No 6° passo, A configuração do security group, no qual é responsável pela liberação de acesso a instância. Liberaremos as portas 22 e 80.
  - O 7° passo, nos mostra todo o resumo da instancia que acabamos de criar, após verificarmos se tudo está ok, pode clicar em Lauch.
 Toda instância deverá ter um par de chaves, para que possamos acessar, caso perca essa chave, terá que gerar uma nova, pois a AWS não guarda.
-Depois que nossa instância estiver rodando, vamos acessar através do ssh utilizando a chave privada e instalaremos o docker, para fazer a instalação do docker, pode serguir o passo a passo no site do proprio docker onde tem a documentação explicando,mas vamos instalar da forma mais fácil utilizando o CURL, a linha de comando é a: curl -fsSL https://get.docker.com | bash, assim que você colocar isso no terminal, rodará um script onde fará a instalação automática.
+
+
+Depois que nossa instância estiver rodando, vamos acessar através do ssh utilizando a chave privada e instalaremos o docker, para fazer a instalação do docker, pode serguir o passo a passo no site do proprio docker onde tem a documentação explicando,mas vamos instalar da forma mais fácil utilizando o CURL, a linha de comando é a: 
+* curl -fsSL https://get.docker.com | bash, assim que você colocar isso no terminal, rodará um script onde fará a instalação automática.
+
+
 Após a instalação, vamos atualizar o nosso linux para carregar as configurações mais recentes.
