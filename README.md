@@ -1,4 +1,4 @@
-# CreatingInstancesAWS
+# CreatingAWSInstances
 
 Primeiro lugar iremos acessar a conta da AWS, e iremos serviços e no menu escolheremos opção EC2, assim que acessar o dashboard do EC2, veremos no lado esquerdo a opção Instances, clicaremos nessa opção, e apresentará todas as Instancias criadas, caso não haja, clique no botão Lauch Instance.
 Ao clicar no botão, ele mostrará as imagens que estão disponíveis pela AWS na lista Quick Start, caso já tenha alguma imagem crida, clique em My AMIs.
